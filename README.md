@@ -4,22 +4,19 @@ A small, fully functional **8-bit CPU** implemented in **Verilog HDL**, designed
 Includes basic components such as Program Counter, Instruction Memory, Control Unit, Register File, ALU, Data Memory, and a top-level CPU module with a testbench.
 
 ---
-## 🔗 Quick Access
-- [ALU Code (alu.v)](alu.v)
-- [Testbench (alu_tb.v)](alu_tb.v)
 ## 📂 Project Files
 | File | Description |
 |------|-------------|
-| ## 🔗 Quick Access
-- [ Code (pc.v)](pc.v)| Program Counter module |
-| `instruction_mem.v` | Instruction Memory module |
-| `control_unit.v` | Control Unit (Instruction Decoder) |
-| `register_file.v` | Register File with 4 general-purpose registers |
-| `alu.v` | Arithmetic Logic Unit supporting addition & subtraction |
-| `data_mem.v` | Data Memory module with combinational read |
-| `cpu_top.v` | Top-level CPU module connecting all submodules |
-| `tb_cpu.v` | Testbench for the CPU generating `cpu.vcd` waveform |
-| `README.md` | Project description and instructions |
+| [`pc.v`](pc.v) | Program Counter module |
+| [`instruction_mem.v`](instruction_mem.v) | Instruction Memory module |
+| [`control_unit.v`](control_unit.v) | Control Unit (Instruction Decoder) |
+| [`register_file.v`](register_file.v) | Register File with 4 general-purpose registers |
+| [`alu.v`](alu.v) | Arithmetic Logic Unit supporting addition & subtraction |
+| [`data_mem.v`](data_mem.v) | Data Memory module with combinational read |
+| [`cpu_top.v`](cpu_top.v) | Top-level CPU module connecting all submodules |
+| [`tb_cpu.v`](tb_cpu.v) | Testbench for the CPU generating `cpu.vcd` waveform |
+| [`README.md`](README.md) | Project description and instructions |
+
 
 ## Features
 
