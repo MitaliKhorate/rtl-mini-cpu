@@ -4,12 +4,14 @@ A small, fully functional **8-bit CPU** implemented in **Verilog HDL**, designed
 Includes basic components such as Program Counter, Instruction Memory, Control Unit, Register File, ALU, Data Memory, and a top-level CPU module with a testbench.
 
 ---
-
+## 🔗 Quick Access
+- [ALU Code (alu.v)](alu.v)
+- [Testbench (alu_tb.v)](alu_tb.v)
 ## 📂 Project Files
 | File | Description |
 |------|-------------|
 | ## 🔗 Quick Access
-- [ Code (pc.v)](pc.v)`pc.v` | Program Counter module |
+- [ Code (pc.v)](pc.v)`---| Program Counter module |
 | `instruction_mem.v` | Instruction Memory module |
 | `control_unit.v` | Control Unit (Instruction Decoder) |
 | `register_file.v` | Register File with 4 general-purpose registers |
@@ -32,20 +34,4 @@ Includes basic components such as Program Counter, Instruction Memory, Control U
 
 ---
 
-## Quick Access
 
-PC Module (pc.v)
-
-Instruction Memory (instruction_mem.v)
-
-Control Unit (control_unit.v)
-
-Register File (register_file.v)
-
-ALU (alu.v)
-
-Data Memory (data_mem.v)
-
-Top-level CPU (cpu_top.v)
-
-Testbench (tb_cpu.v)
