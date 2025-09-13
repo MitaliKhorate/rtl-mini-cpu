@@ -11,7 +11,7 @@ Includes basic components such as Program Counter, Instruction Memory, Control U
 | File | Description |
 |------|-------------|
 | ## 🔗 Quick Access
-- [ Code (pc.v)](pc.v)`---| Program Counter module |
+- [ Code (pc.v)](pc.v)| Program Counter module |
 | `instruction_mem.v` | Instruction Memory module |
 | `control_unit.v` | Control Unit (Instruction Decoder) |
 | `register_file.v` | Register File with 4 general-purpose registers |
